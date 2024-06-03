@@ -6,6 +6,9 @@
 
 /****** General ***********/
 
+.fa-star {
+    color: var(--main-color);
+}
 
 body {
     display: flex;
