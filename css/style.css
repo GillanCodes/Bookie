@@ -6,13 +6,17 @@
 
 /****** General ***********/
 
-.fa-solid {
-    color: var(--main-color);
-}
 
 body {
     display: flex;
     justify-content: center;
+}
+
+main 
+{
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-container {
