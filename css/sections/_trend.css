@@ -3,6 +3,11 @@
     width: 32%;
 }
 
+.populaires .populaires-title i
+{
+    color: var(--main-color);
+}
+
 .populaires-title {
     display: flex;
     justify-content: space-between;
