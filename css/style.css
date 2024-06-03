@@ -81,7 +81,23 @@ a {
 }
 
 
+footer
+{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-around;
 
+    gap: 15px;
+    padding: 20px;
+}
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+footer .section
+{
 
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    padding: 20px;
+
+}
