@@ -8,6 +8,8 @@ nav.navbar
 nav.navbar img.nav-icon
 {
     height: 19px;
+    padding: 30px 50px 30px 50px;
+    gap: 10px;
 }
 
 nav.navbar .nav-items
@@ -15,6 +17,11 @@ nav.navbar .nav-items
     display: flex;
     height: 35px;
     align-items: end;
+    left: 1096px;
+    padding: 0px 50px 0px 50px;
+    gap: 68px;
+    opacity: 0px;
+
 }
 
 nav.navbar .nav-items .nav-item
