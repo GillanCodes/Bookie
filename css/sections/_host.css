@@ -14,7 +14,7 @@
 
 .hebergements .host-cards .card
 {
-    width: 240px;
+    
     overflow: hidden;
     border-radius: 20px;
     gap: 4px;
@@ -61,9 +61,24 @@
 #canebiere { margin-top: -20px;} 
 #panier { margin-top: 0px;} 
 
+@media (min-width: 767.99px) {
+    .card
+    {
+        width: 240px;
+    }
+}
+
 @media (max-width: 1024px)
 {
     .hebergements
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px)
+{
+    .card
     {
         width: 100%;
     }
