@@ -1,42 +1,97 @@
-.activities
-{
-    display: flex;
-    flex-direction:column;
+@media (min-width: 767.99px) {
+    .activities
+    {
+        display: flex;
+        flex-direction:column;
 
-    gap: 30px;
-    padding: 30px;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .activities .activities-cards
+    {
+        display: flex;
+        gap: 30px;
+    }
+
+    .activities .activities-cards .activity-card
+    {
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        height: 439px;
+        overflow: hidden;
+        border-radius: 20px;
+        width: fit-content;
+    }
+
+    .activities .activities-cards .activity-card .cover
+    {
+        width: 297.5px;
+        height: 380px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .activities .activities-cards .activity-card .name
+    {
+        height: calc(439px - 380px);
+        display: flex;
+        align-items: center;
+
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
 }
 
-.activities .activities-cards
+@media (max-width: 767.98px)
 {
-    display: flex;
-    gap: 30px;
-}
+    .activities
+    {
+        display: flex;
+        flex-direction:column;
 
-.activities .activities-cards .activity-card
-{
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    height: 439px;
-    overflow: hidden;
-    border-radius: 20px;
-    width: fit-content;
-}
+        gap: 30px;
+        padding: 20px;
+    }
 
-.activities .activities-cards .activity-card .cover
-{
-    width: 297.5px;
-    height: 380px;
-    overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
-}
+    .activities .activities-cards
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
-.activities .activities-cards .activity-card .name
-{
-    height: calc(439px - 380px);
-    display: flex;
-    align-items: center;
+    .activities .activities-cards .activity-card
+    {
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        height: calc(141px + 49px);
+        overflow: hidden;
+        border-radius: 20px;
+        width: fit-content;
+    }
 
-    font-size: 16px;
-    font-weight: 700;
-    margin-left: 25px;
-}
+    .activities .activities-cards .activity-card .cover
+    {
+        width: calc(100dvw - 40px);
+        height: 141px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .activities .activities-cards .activity-card .cover img
+    {
+        width: 100%;
+    }
+
+    .activities .activities-cards .activity-card .name
+    {
+        height: 59px;
+        display: flex;
+        align-items: center;
+
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
+
+    #fort-de-pomegues { margin-top: -160px }
+}  
