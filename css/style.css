@@ -136,4 +136,26 @@ footer .section
     {
         background-color: white;
     }
+    
+    footer
+    {
+        background-color: var(--main-bg-color);
+        display: flex;
+        flex-direction: column;
+
+        gap: 15px;
+        padding: 20px;
+        margin-top: 35px;
+    }
+
+    footer .section
+    {
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 15px;
+        padding: 20px;
+
+    }
 }
