@@ -120,4 +120,9 @@ footer .section
         padding: 0;
         box-sizing: border-box;
     }
+
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
