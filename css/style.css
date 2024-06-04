@@ -57,13 +57,13 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/****** hosts And trends ***********/
+.host-and-trend {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.host-and-trend section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -95,8 +95,8 @@ footer .section
 /* ONLY DESKTOP */
 @media (min-width: 1025px)
 {
-    /****** Hebergements ***********/
-    .hebergements {
+    /****** hosts ***********/
+    .hosts {
         width: 65%;
     }
 }
@@ -112,7 +112,7 @@ footer .section
     }
 }
 
-/****** Hebergements ***********/
+/****** hosts ***********/
 @media (max-width: 767.98px)
 {
     .main-container {
@@ -121,12 +121,12 @@ footer .section
         box-sizing: border-box;
     }
 
-    .hebergements-and-populaires {
+    .host-and-trend {
         display: flex;
         flex-direction: column-reverse;
     }
     
-    .hebergements-and-populaires section {
+    .host-and-trend section {
         border-radius: 0px;
         padding: 30px;
         box-sizing: border-box;

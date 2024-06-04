@@ -1,18 +1,18 @@
-.hebergements
+.hosts
 {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.hebergements .host-cards
+.hosts .host-cards
 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.hebergements .host-cards .card
+.hosts .host-cards .card
 {
     
     overflow: hidden;
@@ -22,20 +22,20 @@
     flex-direction: column;
 }
 
-.hebergements .host-cards .card .card-cover
+.hosts .host-cards .card .card-cover
 {
     height: 124px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
 
-.hebergements .host-cards .card .card-cover img
+.hosts .host-cards .card .card-cover img
 {
     width: 100%;
     margin-top: -58px;
 }
 
-.hebergements .host-cards .card .info
+.hosts .host-cards .card .info
 {
     display: flex;
     flex-direction: column;
@@ -43,13 +43,13 @@
     padding: 0px 15px 10px 15px;
 }
 
-.hebergements .host-cards .card .info .name
+.hosts .host-cards .card .info .name
 {
   font-weight: 700;
   font-size: 16px;
 }
 
-.hebergements .host-cards .card .info .price
+.hosts .host-cards .card .info .price
 {
     font-size: 14px;
     font-weight: 400;
@@ -70,7 +70,7 @@
 
 @media (max-width: 1024px)
 {
-    .hebergements
+    .hosts
     {
         width: 100%;
     }
