@@ -125,4 +125,15 @@ footer .section
         display: flex;
         flex-direction: column-reverse;
     }
+    
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    #host-container
+    {
+        background-color: white;
+    }
 }
