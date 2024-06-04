@@ -22,12 +22,7 @@ main
     flex-direction: column;
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
+
 
 a {
     color: inherit;
@@ -75,16 +70,6 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-
-@media (min-width: 1025px)
-{
-    .hebergements {
-        width: 65%;
-    }
-}
-
-
 footer
 {
     background-color: var(--main-bg-color);
@@ -104,4 +89,35 @@ footer .section
     gap: 15px;
     padding: 20px;
 
+}
+
+
+/* ONLY DESKTOP */
+@media (min-width: 1025px)
+{
+    /****** Hebergements ***********/
+    .hebergements {
+        width: 65%;
+    }
+}
+
+/* NOT MOBILE */
+@media (min-width: 767.99px)
+{
+    .main-container {
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+}
+
+/****** Hebergements ***********/
+@media (max-width: 767.98px)
+{
+    .main-container {
+        width: 100dvw;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
