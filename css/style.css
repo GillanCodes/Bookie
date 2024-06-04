@@ -76,8 +76,12 @@ a {
 }
 
 /****** Hebergements ***********/
-.hebergements {
-    width: 65%;
+
+@media (min-width: 1025px)
+{
+    .hebergements {
+        width: 65%;
+    }
 }
 
 
