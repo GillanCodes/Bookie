@@ -62,7 +62,7 @@
 #panier { margin-top: 0px;} 
 
 @media (min-width: 767.99px) {
-    .card
+    .hosts .host-cards .card
     {
         width: 240px;
     }
@@ -70,7 +70,7 @@
 
 @media (max-width: 1024px)
 {
-    .hosts
+    .hosts .host-cards .hosts
     {
         width: 100%;
     }
@@ -78,7 +78,7 @@
 
 @media (max-width: 767.98px)
 {
-    .card
+    .hosts .host-cards .card
     {
         width: 100%;
     }
