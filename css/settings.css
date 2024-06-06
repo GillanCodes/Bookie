@@ -1,3 +1,7 @@
+/*
+*   Default settings
+*/
+
 /* VARS */
 :root
 {
@@ -6,6 +10,7 @@
     --filter-bg-color: #DEEBFF;
 }
 
+/* No margin and font to all elements */
 *
 {
     font-family: 'Raleway', sans-serif;

@@ -1,3 +1,4 @@
+/* DESKTOP & TABLET NAVBAR */
 @media (min-width: 767.99px) {
     nav.navbar
     {
@@ -37,6 +38,8 @@
     }
 }
 
+
+/* MOBILE NAVBAR */
 @media (max-width: 767.98px)
 {
    nav.navbar

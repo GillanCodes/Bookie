@@ -1,3 +1,8 @@
+/*
+*    Stylesheet of activities section
+*/
+
+/* Desktop and tablet style */
 @media (min-width: 767.99px) {
     .activities
     {
@@ -43,6 +48,7 @@
     }
 }
 
+/* Mobile style */
 @media (max-width: 767.98px)
 {
     .activities

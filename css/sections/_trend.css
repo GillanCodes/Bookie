@@ -1,3 +1,7 @@
+/*
+*    Stylesheet of trends section
+*/
+
 .trends {
     width: 32%;
 }
@@ -12,6 +16,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* Trends Card */
 
 .trends-cards .card {
     display: flex;
@@ -47,10 +53,7 @@
     margin-bottom: 5px;
 }
 
-
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+/* Tablet device */
 @media (max-width: 1024px) {
     .host-and-trend {
         flex-direction: column;
@@ -84,7 +87,7 @@
     }
 }
 
-/* Small devices (phones, less than 768px) */
+/* Mobile */
 @media (max-width: 767.98px) {
     .trends-cards {
         display: flex;

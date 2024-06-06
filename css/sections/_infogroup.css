@@ -1,3 +1,10 @@
+/*
+*   Stylesheet of info section
+*       section with search bar and filter
+*/
+
+
+/* Desktop */
 @media (min-width: 767.99px)
 {
     .info-group
@@ -14,6 +21,7 @@
         gap: 8px;
     }
 
+        /* Hide mobile search bar */
     #search-mobile { display: none; }
 
     .info-group .town-search
@@ -151,6 +159,8 @@
     }
 }
 
+
+/* Mobile */
 @media (max-width: 767.98px)
 {
     .info-group
@@ -169,7 +179,7 @@
         gap: 8px;
     }
 
-
+        /* Hide desktop search bar */
     #search-desktop { display: none; }
 
     .info-group .town-search
