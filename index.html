@@ -2,21 +2,26 @@
 <html lang="fr">
 
 <head>
+    <!-- Default meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tab Title -->
     <title>Booki</title>
+    <!-- Import fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Import my css file -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="main-container">
         <header>
+            <!-- Navbar in header -->
             <nav class="navbar">
                 <img src="./images/logo/Booki.png" alt="Bookie-Logo" class="nav-icon" title="Booki">
                 <div class="nav-items">
@@ -27,12 +32,14 @@
         </header>
         <main>
 
+            <!-- Info group with search bar and filters -->
             <div class="info-group">
                <div class="titles">
                     <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <h2 class="subtitle">En plein centre-ville ou en pleine nature</h2>
                </div> 
 
+                <!-- Search bar for desktop -->
                 <form class="town-search" id="search-desktop">
                     <span class="icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -41,6 +48,7 @@
                     <button class="search-btn">Rechercher</button>
                 </form>
 
+                <!-- Search bar for mobile -->
                 <form class="town-search" id="search-mobile">
                     <span class="icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -87,6 +95,7 @@
                     </div>
                 </div>
 
+                <!-- Number of results with search and filters -->
                 <div class="info">
                     <span class="info-circle"><i class="fa-solid fa-info"></i></span>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -94,11 +103,13 @@
 
             </div>
 
+            <!-- Hosts and Trend -->
             <div class="host-and-trend">
                 <section class="hosts" id="host-container">
 
                     <h2 class="title">Hébergements à Marseille</h2>
 
+                    <!-- Hosts result cards -->
                     <div class="host-cards" id="host">
 
                         <article class="card">
@@ -208,11 +219,13 @@
                     <p class="highlight">Afficher plus</p>
 
                 </section>
+                <!-- Trend section -->
                 <section class="trends">
                     <div class="trends-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
+                    <!-- Trending hosts cards -->
                     <div class="trends-cards">
                         <a href="#">
                             <article class="card">
@@ -274,10 +287,13 @@
                     </div>
                 </section>
             </div>
+
+            <!-- Activities section -->
             <div class="activities" id="activities">
 
                 <p class="title">Activités à Marseille</p>
 
+                <!-- Activities cards -->
                 <div class="activities-cards">
                  
                     <div class="activity-card">
@@ -313,6 +329,8 @@
 
             </div>
         </main>
+
+        <!-- Footer -->
         <footer>
 
             <div class="section">
