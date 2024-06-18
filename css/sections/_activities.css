@@ -13,7 +13,8 @@
         padding: 30px;
 
         max-width: 100%;
-        overflow: scroll;
+        overflow-y: hidden;
+        overflow-x: scroll;
     }
 
     .activities .activities-cards
